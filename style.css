@@ -1,0 +1,164 @@
+#container{
+    box-sizing: content-box;
+    width: 100%;
+    height: 100%;
+   background-color: rgb(236, 227, 215);
+}
+#icon-palette{
+
+border-color: transparent;
+background-color: rgb(226, 211, 191) ;
+height: fit-content;
+margin-top: 6em;
+margin-bottom: 2em;
+}
+#icon-palette div button{
+    background-color: transparent;
+    border-color: transparent;
+    margin: .5em;
+}
+
+
+.checked{
+    text-decoration: line-through;
+    
+}
+input[type=date] {
+  
+}  
+#add{
+    margin-top: 3em;
+    border-color: transparent;
+    background-color: chocolate;
+    color: black;
+    font-size:1.5em;
+    font-weight: 600;
+    padding-left:1em;
+    padding-right: 1em;
+
+}
+#Item{
+    height: 2em;
+    width: 10em;
+    border-color: transparent;
+    background-color: transparent;
+    border-bottom: solid chocolate 1px;
+    color: black;
+    font-size: xx-large;
+}
+
+#prev{
+    position: absolute;
+    top:0em;
+    left: 0em;
+    margin-top: 1.5em;
+    margin-left: 1em;
+    
+    border-radius: 5em;
+    background-color: transparent;
+
+}
+#prev:active{
+    position: absolute;
+    top:0em;
+    left: 0em;
+    margin-top: 1.5em;
+    margin-left: 1em;
+    
+    border-radius: 5em;
+    background-color: chocolate;
+
+}
+
+.prev{
+margin: 0.5em;
+}
+
+
+#next{
+    position: absolute;
+    top:0em;
+    right: 0em;
+    margin-top: 1.5em;
+    margin-right: 1em;
+    
+    border-radius: 5em;
+    background-color: transparent;
+
+}
+#next:active{
+    position: absolute;
+    top:0em;
+    right: 0em;
+    margin-top: 1.5em;
+    margin-right: 1em;
+    
+    border-radius: 5em;
+    background-color: chocolate;
+
+}
+.next{
+    margin: 0.5em;
+    
+}
+
+
+
+#addingItem p{
+    margin: auto;
+    width: fit-content;
+
+}
+#bottom-icons{
+    margin: auto;
+    width: fit-content;
+   
+
+}
+#create{
+    
+   margin: auto;
+   width: fit-content;
+}
+#create button{
+    border-color: transparent;
+    background-color: chocolate;
+    color: black;
+    font-size:1.5em;
+    font-weight: 600;
+    padding-left:1em;
+    padding-right: 1em;
+}
+.date{
+    font-size: 2em;
+    font-weight: 400;
+  
+}
+.todo-list{
+    width: fit-content;
+}
+.todo-list-main{
+width: 18em;
+background-color: white;
+border: chocolate solid 1px;
+
+
+
+}
+.time{
+    width: fit-content;
+    font-size: smaller;
+    font-weight: 100;
+    
+}
+.title{
+font-size: 1.5em;
+font-weight: 700;
+}
+.labels{
+    font-size: xx-large;
+font-weight: 600;
+}
+#date-item{
+
+}
